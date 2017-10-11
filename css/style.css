@@ -1,0 +1,33 @@
+* {box-sizing:border-box;}
+body {
+    background-color: #ffb2ff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.page_title {
+    color:#b266ff;
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+}
+
+.left-container {
+    padding: 10px;
+    margin-right:10px;
+    float:left;
+    }
+
+.right-container {
+    padding:10px;
+    margin-right: 10px;
+    float:right;
+    width:290px;
+}
+
+.left-header {
+    color:#ff66ff;
+}
+
+.right-header {
+    color:#ff66ff;
+}
