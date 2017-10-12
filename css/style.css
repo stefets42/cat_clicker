@@ -11,6 +11,13 @@ body {
     text-align: center;
 }
 
+.page_sub_title {
+    color:#b266ff;
+    opacity: 0.5;
+    font-size: 22px;
+    text-align: center;
+}
+
 .left-container {
     padding: 10px;
     margin-right:10px;
@@ -21,13 +28,15 @@ body {
     padding:10px;
     margin-right: 10px;
     float:right;
-    width:290px;
 }
 
-.left-header {
-    color:#ff66ff;
+.left-cat-img,
+.right-cat-img {
+    height:400px;
+    width: 600px;
 }
 
+.left-header,
 .right-header {
     color:#ff66ff;
 }

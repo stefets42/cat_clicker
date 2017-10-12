@@ -7,16 +7,19 @@
 </head>
 <body>
 
-<h2 class="page_title">Play with the Cat Clicker!</h2>
+<h1 class="page_title">Play with the Cat Clicker!</h2>
+<h2 class="page_sub_title"><span>Click on the cat picture to increase the click count underneath</span></h2>
 
 <div class="left-container">
-    <h3 class="left-header">Click on the cat to increase the number on the right</h3>
-    <img id="cat-img" alt="cat image" src="img/cat.jpg">  
+    <div><h3 class="left-header" id="left-cat-name"></h3></div>
+    <div><img class="left-cat-img" id="left-cat-img" alt="cat image" src="img/maurice_the_cat.jpg"></div>  
+    <div><p id="left-cat-count"></p></div>
 </div>
 
 <div class="right-container">
-    <h3 class="right-header">Number of clicks:</h3>
-    <p id="number"></p>
+    <div><h3 class="right-header" id="right-cat-name"></h3></div>
+    <div><img class="right-cat-img" id="right-cat-img" alt="cat image" src="img/roger_the_cat.jpg"></div> 
+    <div><p id="right-cat-count"></p></div>
 </div>
 
     <script src="js/libs/jquery.min.js"></script>
