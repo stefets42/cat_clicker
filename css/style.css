@@ -13,30 +13,32 @@ body {
 
 .page_sub_title {
     color:#b266ff;
-    opacity: 0.5;
+    opacity: 0.3;
     font-size: 22px;
     text-align: center;
 }
 
-.left-container {
+.left-container,
+.right-container {
     padding: 10px;
     margin-right:10px;
+    color:#ff66ff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.left-container {
     float:left;
-    }
+}
 
 .right-container {
-    padding:10px;
-    margin-right: 10px;
     float:right;
 }
 
-.left-cat-img,
-.right-cat-img {
-    height:400px;
-    width: 600px;
-}
-
-.left-header,
-.right-header {
-    color:#ff66ff;
+#left-cat-img,
+#right-cat-img{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
 }
