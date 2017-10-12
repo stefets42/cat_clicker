@@ -13,7 +13,7 @@ $('#left-cat-img').click(function(){
 
 
 var leftCatName = document.getElementById("left-cat-name");
-leftCatName.innerHTML = Maurice;
+leftCatName.innerHTML = "Maurice";
 
 
 
@@ -33,4 +33,4 @@ $('#right-cat-img').click(function(){
 
 
 var rightCatName = document.getElementById("right-cat-name");
-rightCatName.innerHTML = Roger;
+rightCatName.innerHTML = "Roger";
